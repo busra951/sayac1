@@ -103,7 +103,7 @@ async def gonder(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"Toplam {sent_count} kullanıcıya mesaj gönderildi.")
 
 def main():
-    application = Application.builder().token('7642212104:AAGjoUsQnJd1F4jaEFrYbpH4VDbGIbVI1Uw').build()
+    application = Application.builder().token('7642212104:AAEZCUilCcvBDuZv8QGhbawhFcUGWXm_H8o').build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("sayac", sayac))
